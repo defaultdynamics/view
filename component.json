@@ -1,0 +1,15 @@
+{
+    "name": "view",
+    "description": "View",
+    "version": "0.0.1",
+    "dependencies": {
+        "component/domify": "*"
+    },
+    "scripts": [
+        "index.js",
+        "template.js"
+    ],
+    "styles": [
+    	"style.css"
+    ]
+}

@@ -1,0 +1,1 @@
+module.exports = '<div class="page"></div>';
