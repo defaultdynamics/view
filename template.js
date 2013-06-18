@@ -1,1 +1,1 @@
-module.exports = '<div class="page"></div>';
+module.exports = '<section class="view"></section>';

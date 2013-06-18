@@ -1,4 +1,4 @@
-.page {
+.view {
     position: absolute;
     top: 0;
     left: 0;
@@ -8,22 +8,22 @@
     transform: translate3d(0, 0, 0);
 }
 
-.page.page-left {
+.view.view-left {
     -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
 }
 
-.page.page-center {
+.view.view-center {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
 
-.page.page-right {
+.view.view-right {
     -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
 }
 
-.page.transition {
+.view.transition {
     -webkit-transition-duration: .25s;
     transition-duration: .25s;
 }

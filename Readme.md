@@ -1,5 +1,5 @@
 ## View
-Page wrapper for handling page transitions.
+View component.
 
 ## Usage
 Creating a view
