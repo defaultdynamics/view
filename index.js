@@ -19,7 +19,7 @@ function View (tpl, options) {
     this.el = domify(template);
 
     // set id
-    if (options.id) this.el.id;
+    if (options.id) this.el.id = options.id;
 
     this.el.appendChild(tpl);
 }
