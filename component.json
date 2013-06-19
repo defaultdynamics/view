@@ -3,7 +3,8 @@
     "description": "View",
     "version": "0.0.1",
     "dependencies": {
-        "component/domify": "*"
+        "component/domify": "*",
+        "gjohnson/uuid": "*"
     },
     "scripts": [
         "index.js",
