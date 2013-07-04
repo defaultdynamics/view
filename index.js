@@ -4,7 +4,8 @@
 
 var template = require('./template')
   , domify = require('domify')
-  , uuid = require('uuid');
+  , uuid = require('uuid')
+  , Emitter = require('emitter');
 
 
 module.exports = View;
@@ -25,3 +26,9 @@ function View (tpl, options) {
 
     this.el.appendChild(tpl);
 }
+
+/**
+ * Inherit Emitter
+ */
+
+Emitter(View.prototype);

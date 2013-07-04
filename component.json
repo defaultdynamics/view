@@ -4,7 +4,8 @@
     "version": "0.0.1",
     "dependencies": {
         "component/domify": "*",
-        "gjohnson/uuid": "*"
+        "gjohnson/uuid": "*",
+        "component/emitter": "*"
     },
     "scripts": [
         "index.js",
